@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 120px;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#shopping .extra p {
+    color: black;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: inherit;
+    padding-top: 15px;
+}
+
+.extra {
+    width: 255px;
+    height: 120px;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#shopping .extra {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px; 
+}
+
+
+
+#shopping .mom {
+    position: relative;
+    overflow: hidden;
+}
+
+#shopping .layer {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    z-index: 2;
+    
+}
+
+#shopping button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px; 
+}
+
+#shopping .mom:hover .layer {
+    opacity: 1;
+}
+
+#shopping img {
+    transition: all 0.2s; 
+}
+
+#shopping .mom:hover img {
+    transform: scale(1.1);
+}
+
+#shopping button:hover {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    transition: 0.3s;
+}
+
+#shopping h5 {
+    font-weight: 200;
+}
+
+#shopping p {
+    font-size: 12px;
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    margin-top: 65px;
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}

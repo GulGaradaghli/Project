@@ -1,0 +1,628 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+nav.first span {
+display: none;
+}
+
+.jsshit {
+    height: 0;
+    opacity: 0;
+}
+.jsshit.active{
+    height: 100%;
+    opacity: 1;
+}
+@media only screen and (max-width: 991px) {
+    nav.first ul {
+        display: none;
+    }
+    nav.first span {
+        display: block;
+        margin-left: 300px;
+        line-height: 74px;
+        font-size: 1.5em;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+    }
+
+    nav h5 {
+        color: white;
+    }
+
+    .jsshit {
+        background-color: black;
+
+    }
+
+    .jsshit ul {
+        display: block;
+        margin-left: 80px;
+
+    }
+    .jsshit ul li a{
+        color: white;
+    }
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+    height: 40px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+.dropdown {
+
+    width: 150px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+    position: absolute;
+}
+
+.dropdown a {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.shop:hover .dropdown{
+    display: block;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+
+#main h1 {
+    margin-left: 120px;
+    font-weight: 200;
+    margin-top: 300px;
+    font-size: 50px;
+}
+
+#main p {
+    margin-left: 120px;
+    font-weight: 20px;
+    margin-top: 40px;
+    
+}
+
+#main button {
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+    border: orange;
+    border-radius: 40px;
+    margin-left: 117px;
+    margin-top: 30px;
+    transition: all 0.2s;
+
+}
+
+#main button:hover {
+    background-color: white;
+    border:1px solid orange;
+    color: orange; 
+}
+
+
+#main img {
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+#ship {
+    background-color: rgba(205, 212, 214, 0.322);
+}
+
+#ship h5 {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#ship h1 {
+    text-align: inherit;
+    margin-top: 80px;
+}
+
+#ship p {
+    
+    font-size: 15px;
+    color: grey;
+}
+
+#ship .vot {
+    margin-top: 30px;
+}
+
+#ship .eti {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ship .thisone {
+    justify-content: space-evenly;
+    display: flex;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#ship i {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+
+}
+
+#ship img {
+    width: 100%;
+    height: 700px;
+}
+
+ .extra {
+    width: 255px;
+    height: 120px;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+ #bs .extra p {
+    color: black;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: inherit;
+    padding-top: 15px;
+}
+
+#bs {
+background-color: rgba(205, 212, 214, 0.322);
+
+padding-bottom: 170px;
+}
+
+#bs h1 {
+    padding-top: 150px;
+    text-align: center;
+    
+}
+
+#bs p {
+    text-align: center;
+    color: grey;
+}
+
+#bs .thisbtn:hover {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px; 
+    transition: all 0.4s;
+}
+
+#products .thisbtn:hover {
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px; 
+    transition: all 0.4s;
+}
+
+#products p {
+    text-align: center;
+    color: grey; 
+}
+
+#products h1 {
+        text-align: center;
+
+}
+
+#products div{
+    width: 100%;
+
+}
+
+#products h1 {
+margin-top: 40px;
+}
+
+#products {
+    background-color: rgba(205, 212, 214, 0.322);
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#products .extra p {
+    color: black;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: inherit;
+    padding-top: 15px;
+}
+
+#bs .extra {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px; 
+}
+
+#products .extra {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+#bs .mom {
+    position: relative;
+    overflow: hidden;
+}
+
+#products .mom {
+    position: relative;
+    overflow: hidden;
+}
+
+#bs .layer {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    z-index: 2;
+    
+}
+
+#products .layer {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    z-index: 2;
+   
+}
+
+#bs button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px; 
+}
+
+#products button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 991px) {
+    #bs button {
+        margin-top: 420px;
+    
+    }
+} 
+
+@media only screen and (max-width: 991px) {
+    #products button {
+        margin-top: 420px;
+    
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #products button {
+        margin-top: 300px;
+    
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #bs button {
+        margin-top: 300px;
+    
+    }
+}
+
+
+
+#bs .mom:hover .layer {
+    opacity: 1;
+}
+
+#products .mom:hover .layer{
+    opacity: 1;
+    
+}
+
+#bs img {
+    transition: all 0.2s; 
+}
+
+#products img {
+    transition: all 0.2s;
+}
+
+#bs .mom:hover img {
+    transform: scale(1.1);
+}
+
+#products .mom:hover img {
+    transform: scale(1.1);
+}
+
+#newclothing img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#newclothing button {
+    width: 122px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid white;
+    color: black;
+    font-size: 14px;
+}
+
+#newclothing .my-btn {
+    box-shadow: rgba(170, 162, 162, 0.164);
+}
+
+#newclothing button:hover {
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    transition: 0.3s;
+}
+
+#newclothing h2 {
+    font-weight: 250;
+    letter-spacing: 2px;
+    margin-top: 130px;
+}
+
+#newclothing p {
+    color: grey;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+#newclothing .next {
+    z-index: 1;
+    margin-left: -250px;
+}
+
+#newclothing .photo {
+    z-index: 1;
+    margin-top: -60px;
+    border: 15px solid white;
+}
+
+
+
+#guy {
+
+    background-image: linear-gradient( to right,rgba(170, 162, 162, 0.164), rgba(170, 162, 162, 0.164)),  url("../images/bg_4.webp"); 
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-flex{
+
+    display:flex;
+   flex-direction: column;
+    text-align:center;
+    padding:100px;
+    letter-spacing: 2px;
+ 
+  }
+
+#customers {
+    margin-bottom: 200px;
+}
+
+#customers h1 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#customers p {
+    color: grey;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+#customers img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+#customers .now {
+    color: black;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+#customers .line {
+    transform: rotate(90deg);
+    margin-left: -20px;
+    margin-bottom: -30px;
+    width: 80px;
+}
+
+#customers h4 {
+    font-weight: 20;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 40px;
+    margin-bottom: 0;
+
+}
+
+#customers h5 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 20;
+}
+
+#newsletter {
+    padding-top: 50px;
+}
+
+#newsletter h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#newsletter .subscribe {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+#newsletter input {
+    width: 270px;
+    height: 50px;
+    border: 1px solid black;
+}
+
+#newsletter button {
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 12px;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    margin-top: 65px;
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}
+

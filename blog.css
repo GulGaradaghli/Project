@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 120px;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#all .photo {
+    width: 280px;
+    height: 250px;
+}
+
+#all img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#all h4 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#all .text h5 {
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#all .text {
+    margin-left: 20px;
+
+}
+
+#all button {
+    background-color: orange;
+    width: 130px;
+    height: 40px;
+    border: orange;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    color: white;
+}
+
+#all button:hover {
+    background-color: white;
+    border:1px solid orange;
+    color: orange; 
+}
+
+#all .box {
+    margin-top: 100px;
+}
+
+#all .type {
+    position: relative;
+}
+
+#all i {
+    position: absolute;
+    top: 48px;
+    right: 1px;
+
+
+}
+
+#all  h3 {
+    font-weight: 200;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#all input {
+    width: 270px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#all .pokupki {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted lightgrey;
+}
+
+#all .pokupki p {
+    color: lightgrey;
+
+}
+
+#all .recent .middle {
+    height: 50px;
+
+}
+
+#all .recent img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+#all .recent h5 {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+#all .tags {
+    margin-top: 250px;
+
+}
+
+#all .tags button {
+    width: 80px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#all .paragraph h5 {
+    margin-top: 70px;
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    margin-top: 65px;
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}
+

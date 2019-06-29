@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 120px;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#cart {
+    padding-bottom: 70px;
+}
+
+#cart .table {
+    width: 1200px;
+    height: 70px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    line-height: 70px;
+    text-align: center;
+}
+
+#cart .obshiy {
+    height: 600px;
+    width: 1200px;
+    border-bottom: 1px solid lightgrey;
+}
+
+#cart .second {
+    height: 250px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    color: black;
+    line-height: 250px;
+
+}
+
+#cart .third {
+    border-bottom: none;
+}
+
+#cart .second h5 {
+    color: black;
+    font-size: 14px;
+    margin-top: 60px;
+
+}
+
+
+
+#cart .second p {
+    color: grey;
+    line-height: 25px;
+
+
+}
+
+#cart .second .photo {
+    width: 100px;
+    height: 160px;
+}
+
+#cart img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cart input {
+    width: 200px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+#total .carttotals {
+
+    width: 500px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    margin: auto;
+  
+}
+
+#total button {
+    background-color: orange;
+    width: 500px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    color: white;
+    margin-left: 470px;
+}
+
+#total button:hover {
+    background-color: white;
+    width: 500px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    color: orange;
+    margin-left: 470px;
+}
+
+#total .one {
+    text-align: center;
+    color: grey;
+
+}
+
+#total h5 {
+    margin-left: 20px;
+}
+
+#total .posledniy {
+    color: black;
+}
+
+
+
+#total hr {
+    width: 450px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    margin-top: 65px;
+}
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}

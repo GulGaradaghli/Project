@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 120px;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#checkout {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#checkout .box {
+    width: 350px;
+    height: 400px;
+    background-color: rgba(212, 221, 224, 0.363);
+}
+
+#checkout .box .black {
+    color: black;
+}
+
+#checkout .box label {
+    color: grey;
+}
+
+#checkout button {
+    background-color: orange;
+    width: 250px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 80px;
+    transition: all 0.2s;
+    color: white;
+   
+}
+
+#checkout button:hover {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 80px;
+    transition: all 0.2s;
+    color:orange;
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    margin-top: 65px;
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}

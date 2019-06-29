@@ -1,0 +1,319 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 120px;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#photos {
+    padding-bottom: 200px;
+}
+
+#photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#photos button {
+    background-color: black;
+    width: 180px;
+    height: 60px;
+    border: orange;
+    border-radius: 40px;
+margin-top: -20px;
+    transition: all 0.2s;
+    color: white;
+}
+
+#photos .this-btn:hover {
+    background-color: orange;
+    width: 180px;
+    height: 60px;
+    border: orange;
+    border-radius: 40px;
+    margin-top: -20px;
+    transition: all 0.2s;
+    color: white;
+}
+
+
+
+#photos .first input {
+    width: 160px;
+    height: 40px;
+    color: black;
+}
+
+#photos .little {
+    line-height: 60px;
+}
+
+#photos .first {
+    height: 60px;
+}
+
+#photos .odin {
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+
+#photos .babies {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+#photos .icons {
+    color: orange;
+    width: 30px;
+    height: 30px;
+    display: flex;
+ 
+
+}
+
+#photos .cifra {
+    color: orange;
+    line-height: 20px;
+    margin-right: 10px;
+}
+
+#photos span {
+    display: flex;
+ 
+}
+
+#photos .grey {
+    color: grey;
+}
+
+#photos .number {
+    margin-left: 100px;
+}
+
+#photos .numbertwo {
+    margin-left: 40px;
+}
+
+.extra {
+    width: 255px;
+    height: 120px;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+ #bs .extra p {
+    color: black;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: inherit;
+    padding-top: 15px;
+}
+
+#bs {
+background-color:  rgba(212, 221, 224, 0.363);
+
+padding-bottom: 170px;
+}
+
+#bs h1 {
+    padding-top: 150px;
+    text-align: center;
+    
+}
+
+#bs p {
+    text-align: center;
+    color: grey;
+}
+
+
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+}
+
+#products .extra p {
+    color: black;
+    font-size: 15px;
+    font-weight: 50;
+    text-align: inherit;
+    padding-top: 15px;
+}
+
+#bs .extra {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px; 
+}
+
+
+
+#bs .mom {
+    position: relative;
+    overflow: hidden;
+}
+
+#products .mom {
+    position: relative;
+    overflow: hidden;
+}
+
+#bs .layer {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    z-index: 2;
+    
+}
+
+#bs .extra {
+    width: 100%;
+    background-color: white;
+    color: grey;
+    padding-left: 15px;
+    padding-top: 0px; 
+}
+
+#bs .layer {
+    position: absolute;
+    background-color: rgba(255, 166, 0, 0.24);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.2s;
+    z-index: 2;
+    
+}
+
+#bs button {
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    border: none;
+    margin-top: 320px;
+    margin-left: 15px; 
+}
+
+#bs .mom:hover .layer {
+    opacity: 1;
+}
+
+#bs img {
+    transition: all 0.2s; 
+}
+
+#bs .mom:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    padding-bottom: 120px;
+  
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}

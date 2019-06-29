@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    line-height: 25px;
+
+}
+
+.navbar {
+    height: 66px;
+    display: inline-block;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    line-height: 66px;
+    margin-right: 150px;
+    
+}
+
+a {
+    color: black;
+}
+
+.side {
+    font-size: 11px;
+}
+
+h5 {
+    letter-spacing: 2px;
+    line-height: 66px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    align-items: center;
+    background-image: url("../images/bg_6.webp"); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+main div {
+    width: 100%;
+    text-align: center;
+}
+
+main h5 {
+    font-size: 13px;
+    font-weight: 20;
+   margin-bottom: 0;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-top: 0;
+    
+}
+
+#info {
+   background-color: rgba(212, 221, 224, 0.363);
+   padding-top: 150px;
+}
+
+#info .infos {
+    width: 240px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 60px;
+
+}
+
+#info .infos p {
+    color: grey;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+
+}
+
+#info .infos .cherniy {
+    color: black;
+    margin-left: -20px;
+}
+
+
+#info .big {
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin-right: -50px;
+    margin-bottom: 150px;
+
+}
+
+#info .big .first {
+    margin-top: 50px;
+}
+
+#info .big input {
+    width: 400px;
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: start;
+}
+
+#info .big .last {
+    width: 400px;
+    height: 200px;
+}
+
+#info button {
+    background-color: orange;
+    width: 200px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    color: white;
+    font-size: 13px;
+    margin-left: 48px;
+
+}
+
+#info button:hover {
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border: 1px solid orange;
+    border-radius: 40px;
+    margin-top: 10px;
+    transition: all 0.2s;
+    color: orange;
+    font-size: 13px;
+
+}
+
+footer {
+    background-color: rgba(212, 221, 224, 0.363);
+    padding-top: 65px;
+    
+}
+
+
+
+footer .container {
+    margin-top: 30px;
+}
+
+footer .end {
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .row {
+    padding-bottom: 50px;
+}
